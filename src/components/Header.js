@@ -26,8 +26,8 @@ export default function Header() {
 			menuBarRef.current.style.display = "none";
 	}
 
-  return (
-		<header>
+	return (
+		<header className='header-section'>
 			<div className='header-container'>
 				<div className='info-container'>
 					<div className='info'>
@@ -56,7 +56,7 @@ export default function Header() {
 
 					<div className='btn-container'>
 						<Link to='/booking'>
-							<button>Book an Appointment</button>
+							<button>Contact Us</button>
 						</Link>
 					</div>
 
@@ -73,7 +73,7 @@ export default function Header() {
 						</ul>
 						<div className='btn-container'>
 							<Link to='/booking'>
-								<button>Book an Appointment</button>
+								<button>Contact Us</button>
 							</Link>
 						</div>
 					</nav>
