@@ -5,7 +5,8 @@ import Header from '../components/Header';
 
 // Resources imports.
 import '../styles/Home.css';
-import homeLanding from '../images/home-landing.jpeg';
+import homeLanding from '../images/home-landing-page.jpg';
+import sellingLanding from '../images/selling-landing.jpg';
 
 import * as module from '../module';
 
@@ -25,6 +26,31 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+      <div className="selling-landing">
+        <div className="content-container">
+          <div className="selling-img">
+            <img src={sellingLanding} alt='selling-img' />
+            <div className="img-desc-container">
+              <p>{module.textImage}</p>
+            </div>
+          </div>
+          <div className="selling-detail">
+            <h2>What Makes Us Different From The Others</h2>
+            <p>{module.description}</p>
+            <div className="list-features">
+              {module.listFeatures.map((feat,index) => (
+                <div className="feature" key={index}>
+                  <div className="design-bullet">
+                    <div className="dot"></div>
+                  </div>
+                  <p>{feat.feature}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   );
 }
