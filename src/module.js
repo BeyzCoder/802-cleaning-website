@@ -1,3 +1,8 @@
+import windowIcon from './images/window-icon.png';
+import snowblowerIcon from './images/snowblower-icon.png';
+import gutterIcon from './images/gutter-icon.png';
+
+
 // Contacts Informations.
 export const address = "802 Gray Ave, Saskatoon, SK S7N 2J4";
 export const phoneNumber = "(306) 774-2863";
@@ -17,4 +22,22 @@ export const listFeatures = [
     {feature: "No Artificial Soap Needed."},
     {feature: "Flexible Work Hour for You."},
     {feature: "No Stain or Spot to be Seen."},
+]
+
+export const gridServices = [
+    {
+        title: "Window Cleaning",
+        desc: "lorem sausd dsjao ng qw ndoxiad s qiowj jaoisman sa",
+        icon: windowIcon
+    },
+    {
+        title: "Snow Blowing",
+        desc: "lorem sausd dsjao ng qw ndoxiad s qiowj jaoisman sa",
+        icon: snowblowerIcon
+    },
+    {
+        title: "Gutter Cleaning",
+        desc: "lorem sausd dsjao ng qw ndoxiad s qiowj jaoisman sa",
+        icon: gutterIcon
+    },
 ]

@@ -3,7 +3,7 @@
 .home-landing {
 	overflow: hidden;
 	position: relative;
-	padding-top: 250px;
+	padding-top: 300px;
 	padding-bottom: 80px;
 	min-height: 100vh;
 }
@@ -95,12 +95,12 @@
 	margin-right: auto;
 	display: flex;
 	align-items: center;
-	width: min(1300px, 90%);
+	width: min(1200px, 90%);
 	gap: 50px;
 }
 .selling-img {
 	height: 630px;
-	width: 430px;
+	width: min(430px, 100%);
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -169,5 +169,33 @@
 	font-weight: 500;
 	color: var(--color-blue);
 }
+@media (max-width: 800px) {
+	.content-container {
+		flex-direction: column;
+	}
+	.selling-img {
+		order: 2;
+	}
+	.selling-detail {
+		order: 1;
+	}
+}
 
-
+/* Selling Point */
+.selling-point {
+	background-color: var(--color-blue);
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.selling-point > h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--color-white);
+	text-align: center;
+	width: min(1200px, 100%);
+}
+.selling-point > h1 > span {
+	color: var(--color-orange);
+}

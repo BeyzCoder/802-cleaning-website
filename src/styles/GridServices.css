@@ -1,0 +1,83 @@
+.service-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.service-options h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    width: min(1300px, 90%);
+    margin: 50px 5px;
+}
+.service {
+    border: 3px solid var(--color-blue);
+    border-radius: 25px;
+    padding: 15px;
+    transition: .2s ease;
+}
+.service:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    cursor: pointer;
+}
+.service:hover img {
+    filter: invert(100%) brightness(200%);
+}
+.row-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design-bullet {
+    background-color: rgba(217, 217, 217, 0.726);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    z-index: 1;
+}
+.dot {
+    background-color: var(--color-blue);
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 5;
+}
+.row-head > img {
+    height: 50px;
+    width: 50px;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(3000%) hue-rotate(170deg) brightness(90%) contrast(100%);
+}
+.row-bottom h3 {
+    margin: 15px 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.row-bottom p {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+.to-be-continue {
+    font-size: 3rem;
+    font-weight: 600;
+}
