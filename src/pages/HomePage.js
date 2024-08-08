@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 // Resources imports.
 import '../styles/Home.css';
 import '../styles/Slide.css';
-import homeLanding from '../images/home-landing-page.jpg';
+import homeLanding from '../images/home-landing-page2.jpg';
 import sellingLanding from '../images/selling-landing2.jpg';
 import check from '../assets/check.svg';
 

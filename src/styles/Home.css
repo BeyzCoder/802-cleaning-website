@@ -22,7 +22,7 @@
 	height: 100%;
 	width: 100%;
 	vertical-align: middle;
-	filter: grayscale(30%) brightness(90%) blur(5px); 
+	filter: grayscale(20%) brightness(90%); 
 }
 .landing-headline {
 	display: flex;
