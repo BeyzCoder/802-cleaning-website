@@ -177,3 +177,10 @@
 .selling-point > h1 > span {
 	color: var(--color-orange);
 }
+
+/* Google Review Container */
+.google-review-container {
+	background-color: var(--color-white);
+	padding-top: 70px;
+	padding-bottom: 70px;
+}

@@ -83,8 +83,9 @@
     color: var(--color-black-shade);
 }
 .to-be-continue {
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--color-blue);
 }
 
 @media (max-width: 1000px) {

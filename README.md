@@ -8,4 +8,4 @@ go to this directory.
 ```
 src/module.js
 ```
-from there you can all the section to change the wording.
+from there you can find all the section to change the wording.

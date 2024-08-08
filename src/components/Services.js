@@ -24,7 +24,7 @@ export default function Services() {
 					</div>
 				))}
 			</div>
-			<div className='to-be-continue'><span>. . .</span></div>
+			<div className='to-be-continue'><span>More To Come...</span></div>
 		</div>
 	);
 }

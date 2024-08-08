@@ -1,0 +1,70 @@
+.footer-section {
+    background-color: var(--color-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.sale-container {
+    display: flex;
+    align-items: center;
+}
+.slogan-container {
+    flex: 2;
+}
+.slogan-container h2 {
+    font-size: 2.2rem;
+    color: var(--color-white);
+    max-width: 800px;
+}
+.slogan-container h2 > span {
+    color: var(--color-orange);
+}
+.book-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.book-container button {
+    width: 270px;
+	padding: 15px;
+	margin: 30px 15px;
+	font-size: 1.2rem;
+	font-weight: 900;
+	color: var(--color-white);
+	border-radius: 25px;
+	border: 2px solid var(--color-orange);
+	background: var(--color-orange);
+	cursor: pointer;
+	transition: .2s ease-in-out;
+}
+.book-container button:hover {
+    background-color: var(--color-white);
+	color: var(--color-orange);
+}
+.contact-row {
+    display: flex;
+    flex-direction: column;
+    width: min(450px, 100%);
+}
+.license-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: min(1200px, 90%);
+}
+.license-row p {
+    color: var(--color-white);
+    font-size: 1.1rem;
+}
+.license-row a {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: .2s ease;
+}
+.license-row a:hover {
+    transform: scale(1.1);
+    color: var(--color-orange);
+}
