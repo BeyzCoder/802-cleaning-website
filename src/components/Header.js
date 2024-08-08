@@ -41,8 +41,11 @@ export default function Header() {
 				</div>
 
 				<div className='navigation-container'>
-					<div className='img-container'>
+					{/* <div className='img-container'>
 						<img src={businessLogo} alt='business-logo' />
+					</div> */}
+					<div className="name-container">
+						<span>802 CLEANING</span>
 					</div>
 
 					<nav className='horizontal-view'>

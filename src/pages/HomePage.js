@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 // Components
 import Header from '../components/Header';
 import Services from '../components/Services';
+import Contact from '../components/Contact';
 
 // Resources imports.
 import '../styles/Home.css';
+import '../styles/Slide.css';
 import homeLanding from '../images/home-landing-page.jpg';
 import sellingLanding from '../images/selling-landing2.jpg';
 import check from '../assets/check.svg';
@@ -58,6 +60,27 @@ export default function HomePage() {
         then give you the quote on the spot."</h1>
       </div>
       <Services />
+      <div className="slide-landing">
+        <h2>Make Your House Brand New Again</h2>
+        <div className="slide-tracker">
+          {module.slideList1.map((slide, index) => (
+            <div className="slide" key={index}>
+              <img src={slide.image} alt='slide' />
+            </div>
+          ))}
+        </div>
+        <div className="slide-center">
+          <img src={module.centerSlide} alt="slide" />
+        </div>
+        <div className="slide-tracker">
+          {module.slideList2.map((slide, index) => (
+            <div className="slide" key={index}>
+              <img src={slide.image} alt='slide' />
+            </div>
+          ))}
+        </div>
+      </div>
+      <Contact />
     </div>
   );
 }

@@ -2,6 +2,14 @@ import windowIcon from './images/window-icon.png';
 import snowblowerIcon from './images/snowblower-icon.png';
 import gutterIcon from './images/gutter-icon.png';
 
+// Images import.
+import showcase1 from './images/showcase-1.jpg';
+import showcase2 from './images/showcase-2.jpg';
+import showcase3 from './images/showcase-3.jpg';
+import showcase4 from './images/showcase-4.jpg';
+import showcase5 from './images/showcase-5.jpg';
+import showcase6 from './images/showcase-6.jpg';
+import showcase7 from './images/showcase-7.jpg';
 
 // Contacts Informations.
 export const address = "802 Gray Ave, Saskatoon, SK S7N 2J4";
@@ -41,3 +49,18 @@ export const gridServices = [
         icon: gutterIcon
     },
 ]
+
+export const slideList1 = [
+    {image: showcase1},
+    {image: showcase2},
+    {image: showcase7},
+]
+export const centerSlide = showcase5
+export const slideList2 = [
+    {image: showcase3},
+    {image: showcase4},
+    {image: showcase6},
+]
+
+export const contactContent = "We appreciate any further question, suggestion, or comment. \
+                                We will do whatever we can to satisfy your needs."
