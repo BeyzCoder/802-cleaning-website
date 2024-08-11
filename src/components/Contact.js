@@ -30,7 +30,7 @@ export default function Contact() {
 		<div className="contact-section">
 			<div className="contact-wrapper">
 				<div className="contact-content">
-					<h2>Contact Us Today</h2>
+					<h2>Contact Us Today - We Are Here to Listen</h2>
 					<p>{module.contactContent}</p>
 					<img src={businessLogo} alt="business-logo" />
 				</div>

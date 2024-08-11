@@ -73,7 +73,7 @@ header {
 	font-size: 1.3rem;
 	font-weight: 700;
 	color: var(--color-white);
-	padding: 10px 25px;
+	padding: 10px 15px;
 	background-color: var(--color-blue);
 	text-align: center;
 }
@@ -202,5 +202,8 @@ header {
 	}
 	.img-container img {
 		width: 200px;
+	}
+	.name-container {
+		flex: 2;
 	}
 }

@@ -8,11 +8,14 @@
 .sale-container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .slogan-container {
     flex: 2;
+    padding: 10px;
 }
 .slogan-container h2 {
+    text-align: center;
     font-size: 2.2rem;
     color: var(--color-white);
     max-width: 800px;
@@ -47,6 +50,27 @@
     flex-direction: column;
     width: min(450px, 100%);
 }
+.info-foot {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+    color: var(--color-white);
+}
+.info-foot img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    height: 24px;
+    width: 24px;
+}
+.info-foot span {
+	transition: 0.2s;
+}
+.info-foot span:hover {
+	color: var(--color-orange);
+	cursor: pointer;
+	scale: 1.02;
+}
 .license-row {
     display: flex;
     align-items: center;
@@ -65,6 +89,18 @@
     transition: .2s ease;
 }
 .license-row a:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     color: var(--color-orange);
+}
+
+@media (max-width: 600px) {
+    .license-row {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .info-foot {
+        font-size: .9rem;
+    }
 }

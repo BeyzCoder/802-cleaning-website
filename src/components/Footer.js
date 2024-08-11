@@ -20,15 +20,15 @@ export default function Footer() {
 					<Link to='/booking'><button>Book an Appointment</button></Link>
 				</div>
 				<div className="contact-row">
-					<div className='info'>
+					<div className='info-foot'>
 						<img src={locationIcon} alt='location-icon' />
 						<span>{module.address}</span>
 					</div>
-					<div className='info'>
+					<div className='info-foot'>
 						<img src={phoneIcon} alt='phone-icon' />
 						<span>{module.phoneNumber}</span>
 					</div>
-					<div className='info'>
+					<div className='info-foot'>
 						<img src={emailIcon} alt='email-icon' />
 						<span>{module.email}</span>
 					</div>
@@ -36,7 +36,7 @@ export default function Footer() {
 			</div>
 			<div className="license-row">
 				<p>802 Window Cleaning © All Rights Reserved 2024. Powered by Vercel.</p>
-				<div className="info">
+				<div className="info-foot">
 					<img src={githubIcon} alt="github-icon" />
 					<a href="https://github.com/BeyzCoder/802-cleaning-website">Github Link. Made by Steven Baes.</a>
 				</div>

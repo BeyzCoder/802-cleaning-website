@@ -87,7 +87,7 @@
 
 .selling-landing {
 	background-color: var(--color-background);
-	padding: 130px 0;
+	padding: 110px 0;
 	display: flex;
 }
 .content-container {
@@ -99,7 +99,7 @@
 	gap: 50px;
 }
 .selling-img {
-	height: 630px;
+	height: 600px;
 	width: min(430px, 100%);
 	position: relative;
 	display: flex;
@@ -123,6 +123,8 @@
 .selling-detail {
 	flex: 1;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 	margin: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .selling-detail h2 {
 	font-weight: 600;
@@ -134,7 +136,7 @@
 	font-weight: 300;
 	font-size: 1.2rem;
 	color: var(--color-black-shade);
-	margin: 25px 0;
+	margin: 15px 0;
 }
 .feature {
 	display: flex;
