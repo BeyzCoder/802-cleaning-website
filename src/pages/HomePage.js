@@ -27,7 +27,7 @@ export default function HomePage() {
           <div className='headline-container'>
             <h1>{module.headline}</h1>
             <p>{module.context}</p>
-            <Link to='/booking'><button>Book an Appointment</button></Link>
+            <Link to='/booking'><button>Make an Appointment</button></Link>
           </div>
         </div>
       </div>
