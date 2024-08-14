@@ -1,4 +1,4 @@
-.booking-landing {
+.contact-landing {
     position: relative;
     min-height: 55vh;
     padding-top: 250px;
@@ -16,13 +16,14 @@
 }
 .page-img-container img {
 	object-fit: cover;
+    object-position: center;
 	display: inline-block;
 	height: 100%;
 	width: 100%;
 	vertical-align: middle;
-	filter: grayscale(0%) brightness(70%); 
+	filter: brightness(70%); 
 }
-.booking-headline {
+.contact-headline {
     position: relative;
     z-index: 5;
     display: flex;
@@ -30,20 +31,15 @@
     align-items: center;
     justify-content: center;
 }
-.booking-headline h1 {
+.contact-headline h1 {
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--color-white);
     margin: 10px;
 }
-.booking-headline p {
+.contact-headline p {
     font-size: 1.3rem;
     font-weight: 00;
     color: var(--color-white);
     margin: 10px;
-}
-.google-scheduling {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: var(--color-background);
 }

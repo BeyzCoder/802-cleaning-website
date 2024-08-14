@@ -16,6 +16,7 @@ export default function BookingPage() {
 				</div>
 				<div className="booking-headline">
 					<h1>Book An Appointment</h1>
+					<p>Choose the following date and we will go to your place then discuss what service you need.</p>
 				</div>
 			</div>
 			<div className='google-scheduling'>

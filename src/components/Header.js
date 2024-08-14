@@ -58,7 +58,7 @@ export default function Header() {
 					</nav>
 
 					<div className='btn-container'>
-						<Link to='/booking'>
+						<Link to='/contact'>
 							<button>Contact Us</button>
 						</Link>
 					</div>
@@ -75,7 +75,7 @@ export default function Header() {
 							<li><Link to='/faq'>FAQ</Link></li>
 						</ul>
 						<div className='btn-container'>
-							<Link to='/booking'>
+							<Link to='/contact'>
 								<button>Contact Us</button>
 							</Link>
 						</div>

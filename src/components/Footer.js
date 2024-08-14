@@ -17,7 +17,10 @@ export default function Footer() {
 					<h2>Make a Difference with Your Home with Our <span>Window Cleaning</span>.</h2>
 				</div>
 				<div className='book-container'>
-					<Link to='/booking'><button>Make an Appointment</button></Link>
+					<Link to='/booking'
+					onClick={() => {
+						window.scrollTo(0,0);
+					}}><button>Make an Appointment</button></Link>
 				</div>
 				<div className="contact-row">
 					<div className='info-foot'>

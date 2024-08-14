@@ -1,6 +1,9 @@
 // Components.
 import Header from '../components/Header';
 
+// Resource imports.
+import '../styles/About.css';
+
 export default function AboutPage() {
 	return (
 		<div className="about-page">

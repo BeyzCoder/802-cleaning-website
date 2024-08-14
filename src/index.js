@@ -7,6 +7,8 @@ import AboutPage from './pages/AboutPage';
 import ServicePage from './pages/ServicePage';
 import FAQPage from './pages/FAQPage';
 import BookingPage from './pages/BookingPage';
+import ContactPage from './pages/ContactPage';
+import ScrollToTop from './components/ScrollToTop';
 
 const router = createBrowserRouter([
   {
@@ -28,13 +30,19 @@ const router = createBrowserRouter([
   {
     path: '/booking',
     element: <BookingPage />
+  },
+  {
+    path: '/contact',
+    element: <ContactPage />
   }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <ScrollToTop></ScrollToTop>
+    </RouterProvider>
   </React.StrictMode>
 );
 
