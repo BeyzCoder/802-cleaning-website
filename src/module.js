@@ -35,17 +35,17 @@ export const listFeatures = [
 export const gridServices = [
     {
         title: "Window Cleaning",
-        desc: "lorem sausd dsjao ng qw ndoxiad s qiowj jaoisman sa",
+        desc: "We'll be cleaning the exterior window of your house, using only pure water.",
         icon: windowIcon
     },
     {
         title: "Snow Blowing",
-        desc: "lorem sausd dsjao ng qw ndoxiad s qiowj jaoisman sa",
+        desc: "We'll be shoveling and blowing the snow of your pathway or pavement of your property.",
         icon: snowblowerIcon
     },
     {
         title: "Gutter Cleaning",
-        desc: "lorem sausd dsjao ng qw ndoxiad s qiowj jaoisman sa",
+        desc: "We'll be the one be dealing going up and cleaning your gutters for you.",
         icon: gutterIcon
     },
 ]
@@ -64,3 +64,6 @@ export const slideList2 = [
 
 export const contactContent = "We appreciate any further question, suggestion, or comment. \
                                 We will do whatever we can to satisfy your needs."
+
+export const aboutContent1 = "We are just young entrepreneurs seeking for good quality service and affordable."
+export const aboutContent2 = "Our business ideally is to compete other local business with more reasonable price and provide good serivce."

@@ -1,0 +1,45 @@
+.service-landing {
+    position: relative;
+    min-height: 55vh;
+    padding-top: 250px;
+    padding-bottom: 30px;
+}
+.service-img-container {
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+    z-index: 1;
+}
+.service-img-container img {
+	object-fit: cover;
+    object-position: bottom;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+	filter: brightness(70%); 
+}
+.service-headline {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service-headline h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin: 10px;
+}
+.service-headline p {
+    font-size: 1.3rem;
+    font-weight: 00;
+    color: var(--color-white);
+    margin: 10px;
+}
