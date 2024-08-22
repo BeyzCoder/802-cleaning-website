@@ -67,3 +67,10 @@ export const contactContent = "We appreciate any further question, suggestion, o
 
 export const aboutContent1 = "We are just young entrepreneurs seeking for good quality service and affordable."
 export const aboutContent2 = "Our business ideally is to compete other local business with more reasonable price and provide good serivce."
+
+export const faqList = [
+    {question: "How do we going to pay?", answer: "We can do e-transfer after the work is done."},
+    {question: "How to choose a service for appointment?", answer: "Just book an appointment with us, then we will go to your place and talk about what do you need and will give you the quota on the spot."},
+    {question: "Is there a charge on booking?", answer: "Since we are new business, there will be no charge if you decide not to continue with the booking after the talk."},
+    {question: "Can we make request on the service?", answer: "We can do request if it is possible to do and its in our field of work."},
+]

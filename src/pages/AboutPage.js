@@ -42,6 +42,9 @@ export default function AboutPage() {
 					</div>
 				</div>
 			</div>
+			<div className="google-review-container">
+        <div class="elfsight-app-d8e862e1-3c01-4400-90bf-bcaa2e2d5f9d" data-elfsight-app-lazy></div>
+      </div>
 			<Footer />
 		</div>
 	);

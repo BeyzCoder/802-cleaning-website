@@ -62,7 +62,7 @@ export default function HomePage() {
       </div>
       <Services />
       <div className="slide-landing">
-        <h2>Make Your House Brand New Again</h2>
+        <h2>Make Your View Much Clearer</h2>
         <div className="slide-tracker">
           {module.slideList1.map((slide, index) => (
             <div className="slide" key={index}>
@@ -83,7 +83,7 @@ export default function HomePage() {
       </div>
       <Contact />
       <div className="google-review-container">
-      <div class="elfsight-app-d8e862e1-3c01-4400-90bf-bcaa2e2d5f9d" data-elfsight-app-lazy></div>
+        <div class="elfsight-app-d8e862e1-3c01-4400-90bf-bcaa2e2d5f9d" data-elfsight-app-lazy></div>
       </div>
       <Footer />
     </div>

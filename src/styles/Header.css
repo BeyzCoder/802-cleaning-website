@@ -140,6 +140,9 @@ header {
 	backdrop-filter: blur(10px);
 	box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
 	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .vertical-view ul {
 	list-style: none;
@@ -167,6 +170,9 @@ header {
 }
 .vertical-view li:hover {
 	background-color: rgba(111, 111, 111, .2);
+}
+.vertical-view .btn-container {
+	display: block;
 }
 
 .menu-btn {
@@ -200,14 +206,6 @@ header {
 	.img-container {
 		flex: 1;
 		justify-content: flex-start;
-	}
-	.vertical-view {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.vertical-view .btn-container {
-		display: block;
 	}
 }
 @media (max-width: 600px) {
