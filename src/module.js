@@ -65,12 +65,12 @@ export const slideList2 = [
 export const contactContent = "We appreciate any further question, suggestion, or comment. \
                                 We will do whatever we can to satisfy your needs."
 
-export const aboutContent1 = "We are just young entrepreneurs seeking for good quality service and affordable."
-export const aboutContent2 = "Our business ideally is to compete other local business with more reasonable price and provide good serivce."
+export const aboutContent1 = "Our founders are united by a profound passion for delivering exceptional cleaning service and hospitality. Driven by a shared vision, they set out to create the 802 Window Cleaning company, where every interaction is marked by genuine care and attention. Their collective commitment to excellence ensures that every client feels valued and satisfied with the services provided."
+export const aboutContent2 = "Our company’s goal is to deliver a consistently pleasant experience that offers exceptional value for money. We are dedicated to ensuring that every customer’s needs are met with precision and care, striving to exceed expectations at every turn. By focusing on personalized service and thoughtful solutions, we aim to achieve complete customer satisfaction and build lasting relationships based on trust and reliability."
 
 export const faqList = [
-    {question: "How do we going to pay?", answer: "We can do e-transfer after the work is done."},
-    {question: "How to choose a service for appointment?", answer: "Just book an appointment with us, then we will go to your place and talk about what do you need and will give you the quota on the spot."},
-    {question: "Is there a charge on booking?", answer: "Since we are new business, there will be no charge if you decide not to continue with the booking after the talk."},
-    {question: "Can we make request on the service?", answer: "We can do request if it is possible to do and its in our field of work."},
+    {question: "What are the payment methods?", answer: "We currently accept payments via cash, e-transfers, or cheques."},
+    {question: "How do I book a price quote and/or service request?", answer: "Booking a free price quote and services is simple and convenient through three easy methods: phone (306) 774-2863, email 802windowcleaning@gmail.com, for a more personal touch, give us a call at (306) 774-2863, and our team will assist you in real-time."},
+    {question: "Is there a charge for price quotes?", answer: "Asking for a price quote is absolutely free. We will send an 802 employee to your chosen time and date."},
+    {question: "What services do we provide?", answer: "We offer comprehensive window cleaning services for both residential and commercial properties, ensuring spotless results every time. Our team is skilled at tackling the unique challenges of large commercial spaces as well as the delicate needs of home windows. In addition, we provide expert gutter cleaning to prevent clogs and maintain proper drainage. Whether you're looking to brighten your home or enhance your business's curb appeal, our services are designed to meet all your needs. Trust us to deliver exceptional quality and reliable service for a clearer view and cleaner gutters."},
 ]
