@@ -102,9 +102,6 @@
         flex-direction: column;
         text-align: center;
     }
-    .info-foot {
-        /* justify-content: center; */
-    }
 }
 @media (max-width: 400px) {
     .info-foot {

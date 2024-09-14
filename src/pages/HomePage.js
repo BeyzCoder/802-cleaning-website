@@ -59,7 +59,7 @@ export default function HomePage() {
       </div>
       <Services />
       <div className="slide-landing">
-        <h2>Enjoy Clearer View From Your Window</h2>
+        <h2>Enjoy A Clearer View From Your Window</h2>
         <div className="slide-tracker">
           {module.slideList1.map((slide, index) => (
             <div className="slide" key={index}>

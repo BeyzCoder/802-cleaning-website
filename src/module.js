@@ -19,7 +19,7 @@ export const email = "802windowcleaning@gmail.com";
 
 // Home Page.
 export const headline = "TELL US WHAT TO DO 802 IS HERE FOR YOU"
-export const context = "A company born out of necessity, 802 Cleaning provies a comprehensive cleaning service that fulfills all your needs."
+export const context = "A company born out of necessity, 802 Cleaning provides a comprehensive cleaning service that fulfills all your needs."
 
 // Selling Section.
 export const textImage = "Let Us Do the Heavy Work Loads for You"
