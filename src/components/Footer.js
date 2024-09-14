@@ -13,9 +13,9 @@ export default function Footer() {
   return (
 		<div className="footer-section">
 			<div className="sale-container">
-				<div className="slogan-container">
+				{/* <div className="slogan-container">
 					<h2>Make a Difference with Your Home with Our <span>Window Cleaning</span>.</h2>
-				</div>
+				</div> */}
 				<div className='book-container'>
 					<Link to='/booking'
 					onClick={() => {

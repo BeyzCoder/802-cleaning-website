@@ -8,6 +8,8 @@
 .sale-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: min(1000px, 90%);
     flex-wrap: wrap;
 }
 .slogan-container {
@@ -26,7 +28,7 @@
 .book-container {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .book-container button {
     width: 270px;
@@ -46,8 +48,10 @@
 	color: var(--color-orange);
 }
 .contact-row {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     width: min(450px, 100%);
 }
 .info-foot {

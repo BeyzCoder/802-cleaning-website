@@ -35,19 +35,16 @@ export default function HomePage() {
         <div className="content-container">
           <div className="selling-img">
             <img src={sellingLanding} alt='selling-img' />
-            <div className="img-desc-container">
+            {/* <div className="img-desc-container">
               <p>{module.textImage}</p>
-            </div>
+            </div> */}
           </div>
           <div className="selling-detail">
-            <h2>What Makes Us Different From The Others</h2>
+            <h2>What Makes Us Different</h2>
             <p>{module.description}</p>
             <div className="list-features">
               {module.listFeatures.map((feat,index) => (
                 <div className="feature" key={index}>
-                  {/* <div className="design-bullet">
-                    <div className="dot"></div>
-                  </div> */}
                   <img src={check} alt='check-icon' />
                   <p>{feat.feature}</p>
                 </div>
@@ -57,12 +54,12 @@ export default function HomePage() {
         </div>
       </div>
       <div className="selling-point">
-        <h1>"We can give you a <span>FREE QUOTE</span> by just calling us and we'll be there in no time 
-        then give you the quote on the spot."</h1>
+        <h1>We provide <span>FREE QUOTES</span> for our services. Reach out to us,
+        and we will take care of the rest.</h1>
       </div>
       <Services />
       <div className="slide-landing">
-        <h2>Make Your View Much Clearer</h2>
+        <h2>Enjoy Clearer View From Your Window</h2>
         <div className="slide-tracker">
           {module.slideList1.map((slide, index) => (
             <div className="slide" key={index}>

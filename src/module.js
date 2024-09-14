@@ -1,6 +1,7 @@
 import windowIcon from './images/window-icon.png';
 import snowblowerIcon from './images/snowblower-icon.png';
 import gutterIcon from './images/gutter-icon.png';
+import miscIcon from './images/misc-icon.png';
 
 // Images import.
 import showcase1 from './images/showcase-1.jpg';
@@ -17,36 +18,42 @@ export const phoneNumber = "(306) 774-2863";
 export const email = "802windowcleaning@gmail.com";
 
 // Home Page.
-export const headline = "TELL US WHAT TO DO 802 IS HERE FOR YOU TO BRIGHTEN YOUR LIFE"
-export const context = "We have the right equipment to deliver an efficient and effective window cleaning."
+export const headline = "TELL US WHAT TO DO 802 IS HERE FOR YOU"
+export const context = "A company born out of necessity, 802 Cleaning provies a comprehensive cleaning service that fulfills all your needs."
 
 // Selling Section.
 export const textImage = "Let Us Do the Heavy Work Loads for You"
-export const description = "We don't use any kind of chemical soup. We use a filter pure water to clean the glass pane \
-                            and the frame that leaves no stains when it gets dry. Lastly, the cost of our service is not \
-                            expensive."
+export const description = "Our exterior window cleaning service does not use any chemical solutions. \
+                            Instead, we use specialized equipment that feeds filtered water through a pole. \
+                            Unlike chemical methods, our approach leaves no residue, resulting in a longer-lasting clean. \
+                            This also makes our service more cost-effective for our patrons."
 export const listFeatures = [
-    {feature: "Effciency Work Pace."},
-    {feature: "No Artificial Soap Needed."},
-    {feature: "Flexible Work Hour for You."},
-    {feature: "No Stain or Spot to be Seen."},
+    {feature: "3-in-1 window cleaning: panes, sills, and frames."},
+    {feature: "A customer satisfaction walk-through is conducted at every service."},
+    {feature: "We offer flexible scheduling to fit your busy life."},
+    {feature: "We offer bundled deals for additional services."},
 ]
 
 export const gridServices = [
     {
         title: "Window Cleaning",
-        desc: "We'll be cleaning the exterior window of your house, using only pure water.",
+        desc: "3-in-1 exterior window cleaning service using our specialized equipment.",
         icon: windowIcon
     },
     {
         title: "Snow Blowing",
-        desc: "We'll be shoveling and blowing the snow of your pathway or pavement of your property.",
+        desc: "Stay warm inside during winter and let us take care of your snow shoveling and blowing needs.",
         icon: snowblowerIcon
     },
     {
         title: "Gutter Cleaning",
-        desc: "We'll be the one be dealing going up and cleaning your gutters for you.",
+        desc: "Protect yourself from injury and keep your gutters clear with our expert cleaning service.",
         icon: gutterIcon
+    },
+    {
+        title: "Miscellaneous",
+        desc: "Bin cleaning, pressure washing, lawn mowing and much more.",
+        icon: miscIcon
     },
 ]
 
@@ -63,7 +70,8 @@ export const slideList2 = [
 ]
 
 export const contactContent = "We appreciate any further question, suggestion, or comment. \
-                                We will do whatever we can to satisfy your needs."
+                                We will do whatever we can to satisfy your needs. Have questions, comments, \
+                                or special requests? Contact us today!"
 
 export const aboutContent1 = "Our founders are united by a profound passion for delivering exceptional cleaning service and hospitality. Driven by a shared vision, they set out to create the 802 Window Cleaning company, where every interaction is marked by genuine care and attention. Their collective commitment to excellence ensures that every client feels valued and satisfied with the services provided."
 export const aboutContent2 = "Our company’s goal is to deliver a consistently pleasant experience that offers exceptional value for money. We are dedicated to ensuring that every customer’s needs are met with precision and care, striving to exceed expectations at every turn. By focusing on personalized service and thoughtful solutions, we aim to achieve complete customer satisfaction and build lasting relationships based on trust and reliability."

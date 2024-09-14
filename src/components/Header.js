@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 // Resources import.
 import '../styles/Header.css';
-import businessLogo from '../images/business-logo.png';
 import locationIcon from '../assets/location.svg';
 import phoneIcon from '../assets/phone.svg';
 import menuIcon from '../assets/menu.svg';
@@ -41,9 +40,6 @@ export default function Header() {
 				</div>
 
 				<div className='navigation-container'>
-					{/* <div className='img-container'>
-						<img src={businessLogo} alt='business-logo' />
-					</div> */}
 					<div className="name-container">
 						<span>802 CLEANING</span>
 					</div>
